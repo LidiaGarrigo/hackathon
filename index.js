@@ -27,5 +27,5 @@ let object_boton = document.querySelector("button");
 object_boton.addEventListener("click", boto_clickat);
 function boto_clickat(evento) {
     evento.preventDefault();
-    window.alert("Mensaje enviado!")
+    window.alert("¡Mensaje enviado!")
 }
