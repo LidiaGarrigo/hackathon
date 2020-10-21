@@ -4,22 +4,22 @@ function send(){
     let textarea = document.getElementById("textarea");
     if(name.value.trim() == ""){
     
-        name.classList.add("warning");
+        name.classList.add("aviso");
     }else{
     
-        name.classList.remove("warning");
+        name.classList.remove("aviso");
     }
     if(email.value.trim() == ""){
-    email.classList.add("warning");
+    email.classList.add("aviso");
     
     }else{
-    email.classList.remove("warning");
+    email.classList.remove("aviso");
     }
     if(textarea.value.trim() == ""){
-    textarea.classList.add("warning");
+    textarea.classList.add("aviso");
     
     }else{
-    textarea.classList.remove("warning");
+    textarea.classList.remove("aviso");
     }
 }
 
